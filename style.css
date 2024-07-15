@@ -145,3 +145,64 @@ header, .home, .features{
 }
 #check{display: none;}
 #check:checked ~ .menu{left: 0;}
+
+/*HOME*/
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.home-container{
+    width: 95%;
+    position: relative;
+    left: 10px;
+}
+
+.h-border-post{
+    border: 10px solid;
+    border-color: #7572FF;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+.home-post{
+    background-color: white;
+    padding: 20px 20px 10px 20px;
+    position: relative;
+    width: 100%;
+    right: 35px;
+}
+
+.home-title{
+    color: #5956E9;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37px;
+    margin: 0;
+} 
+
+.home-text{
+    color:#6C6C72;
+    font-size: 16px;
+}
+
+.home-download{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.home-button{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.app-sample{
+    position: relative;
+    left: 27px;
+}
