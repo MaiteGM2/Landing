@@ -38,7 +38,6 @@ header, .home, .features{
 /*HEADER*/
 
 .nav-bar{
-    width: 100%;
     height: 40px;
     border-radius: 3px;
     display: flex;
